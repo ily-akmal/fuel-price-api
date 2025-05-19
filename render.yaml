@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: fuel-price-api
+    env: python
+    buildCommand: ""
+    startCommand: python fuel_api.py
